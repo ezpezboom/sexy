@@ -4,7 +4,7 @@ local grouplink = "SUS"
  
 if lc:IsInGroup(group) then -- 
 local PlayerName = game:GetService("Players").LocalPlayer.Name
-local WhiteListedPlayers = {"XxxTheRealJirenXxX","LazarTM","ILikeThisName8","SifuAndroidSedap","jeff199292922","aummason","thedarkness093"}
+local WhiteListedPlayers = {"XxxTheRealJirenXxx","LazarTM","ILikeThisName8","SifuAndroidSedap","jeff199292922","aummason","thedarkness093"}
 if table.find(WhiteListedPlayers, PlayerName) then
 -- Variables
 local Players = game.Players
