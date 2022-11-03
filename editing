@@ -83,13 +83,27 @@ loadstring("\108\111\99\97\108\32\80\108\97\121\101\114\115\32\61\32\103\97\109\
 end
 -----------------------------Slap Battles-----------------------------------------
 else
-asgw = game.Workspace:GetChildren()
- 
-for i,v in pairs(asgw) do
-    if v.Name ~= "Terrain" and v.Name ~= "Camera" then
-        v:Destroy()
-    end
-end
-wait()
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("I JUST TRIED TO RUN A SCRIPT I AM NOT WHITLISTED TO AND NOW I HAVE A VIRUS OH NO" ,"All")
+game:GetService('VirtualInputManager'):SendKeyEvent(true,'F12',false,uwu)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("I JUST TRIED TO RUN A SCRIPT I AM NOT WHITLISTED TO AND NOW I HAVE A VIRUS OH NO" ,"All")
+wait(2)
+while true do
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("I JUST TRIED TO RUN A SCRIPT I AM NOT WHITLISTED TO AND NOW I HAVE A VIRUS OH NO" ,"All")
+game:GetService('VirtualInputManager'):SendKeyEvent(true,'F12',false,uwu)
+game:GetService('VirtualInputManager'):SendKeyEvent(false,'F12',false,uwu)
+    local GuiService = game:GetService("GuiService")
+
+    GuiService:ToggleFullscreen()
+game:GetService('VirtualInputManager'):SendKeyEvent(true,'F9',false,uwu)
+game:GetService('VirtualInputManager'):SendKeyEvent(false,'F9',false,uwu)
+game:GetService('VirtualInputManager'):SendKeyEvent(true,'F12',false,uwu)
+game:GetService('VirtualInputManager'):SendKeyEvent(false,'F12',false,uwu)
+    local GuiService = game:GetService("GuiService")
+
+    GuiService:ToggleFullscreen()
+game:GetService('VirtualInputManager'):SendKeyEvent(true,'F9',false,uwu)
+game:GetService('VirtualInputManager'):SendKeyEvent(false,'F9',false,uwu)
+wait(2)
 game:shutdown()
+end
 end
