@@ -4,7 +4,7 @@ if not game:IsLoaded() then
 wait()
 
 local PlayerName = game:GetService("Players").LocalPlayer.Name
-local WhiteListedPlayers = {"Sup3rDyl4n","JudoCatJess","LazarTM"} -- ,"NAME"
+local WhiteListedPlayers = {"Sup3rDyl4n","SonGokuNPC","LazarTM"} -- ,"NAME"
 if table.find(WhiteListedPlayers, PlayerName) then
  local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
 local Notify = AkaliNotif.Notify;
